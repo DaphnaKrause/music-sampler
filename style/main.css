@@ -1,0 +1,58 @@
+html {
+  margin: auto;
+}
+
+#box {
+  background: #ffffff;
+  padding: 2rem;
+  color: #000;
+  margin:2px;
+}
+
+h1 {
+  font-size: 250%;
+  text-align: center;
+}
+body {
+  font-size: 125%;
+  font-family: 'Crimson Text', serif;
+  background-image: url("../images/glitter.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  width: 50%;
+  margin: auto;
+}
+
+img.photo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2rem;
+}
+
+article {
+  padding: 2px;
+}
+
+p {
+  background: #ffffff;
+  padding: 2rem;
+}
+
+ footer {
+  background: #ffffff;
+  padding: 2rem;
+  text-align: center;
+}
+/*Portrait */
+@media screen and (max-width: 700px) {
+  img {
+    width: 100%;
+  }
+  body {
+    margin: auto;
+    padding: 1rem;
+    width: 80%;
+  }
+}
